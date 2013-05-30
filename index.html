@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+   <head>
+      <title>Eu-wen's portfolio site</title>
+      <script src="js/jquery.js" type="text/javascript"></script>
+      <script src="js/bootstrap.js" type="text/javascript"></script>
+      <script src="js/waypoints.js" type="text/javascript"></script>
+      <script src="js/javascript.js" type="text/javascript"></script>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+   </head>
+   <body>
+    <!--
+    Note that I should come back and add portfolio pages for (1) memory game
+     -->
+
+     <div id="navigation_top">Portfolio About Contact</div>
+
+      <div id="first_page">
+        <div id="start">
+
+<!--           <div class="homebutton" style="display: block;">
+            <p class="homebuttoncarrot">^</p>
+          </div> -->
+
+          <img id="face_photo" src="img/euwen.jpg">
+
+          <ul class="navigation">
+            <a class="hidden_link" id="portfolio_button" href="#second_page"><li>
+              <h2>Portfolio</h2>
+            </li></a>
+            <a class="hidden_link" id="about_button" href="#fifth_page"><li>
+              <h2>About</h2>
+            </li></a>
+            <a class="hidden_link" id="contact_button" href="#sixth_page"><li>
+              <h2>Contact</h2>
+            </li></a>
+          </ul>
+
+          <div id="start_text"> Jaded idealist, recovering pessimist, wannabe social entrepreneur. I enjoy making things, creating community, and living outside my comfort zone.
+          </div>
+
+        </div>
+
+        <a href="#second_page"><i class="icon-chevron-down next_page_button"></i></a>
+
+      </div>
+
+      <div id="second_page" class="hidden">
+
+        <div id="page_text">
+          <h3> Embrace Innovations </h3>
+          <p>
+            Embrace is a social enterprise that advances maternal and child health by delivering an innovative, affordable infant warmer to the world's most vulnerable populations.
+          </p>
+          <p>
+            Founded out of the Design for Extreme Affodability program at Stanford, Embrace is headquartered in Bangalore India.
+          </p>
+          <p>
+            I joined Embrace in India as its 7th employee and became responsible for developing our flagship product, an infant warmer that could keep infants warm without requiring electricity while remaining affordable to the poor.
+          </p>
+          <p>
+            When I left in October 2013 our product had completed preliminary clinical trials, launched into the market in a pilot, and the company had grown to over 50 people.
+          </p>
+          <p>
+            ADD PICTURES OF TEAM HERE (in seperate, smaller carousel. Maybe something that fades in and animates to scroll to the left and out? )
+          </p>
+        </div>
+
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators" id="carousel_dots">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><div><img class="embracepic" src="img/embrace1.png" width="700"></div></div>
+            <div class="item"><div><img class="embracepic" src="img/embrace2.png" width="700"></div></div>
+            <div class="item"><img src="img/embrace3.png" width="700"></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+
+        <a href="#third_page"><i class="icon-chevron-down next_page_button"></i></a>
+
+      </div>
+
+      <div id="third_page">
+        <div id="page_text">
+          <h3> Connect Four </h3>
+          <p>
+            This was the first web app I ever built and was the outcome of the first project assignment from the General Assembly WDI course of which I was a student.
+          </p>
+          <p>
+            Originally built in Rails without any javascript, I have since added in javascript and jQuery and page updating via ajax so that players don't have to refresh the page to see new moves.
+          </p>
+          <p>
+            Key skills/technologies used in this project:
+          </p>
+          <ul>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>Javascrip</li>
+            <li>Ajax</li>
+            <li>html/css</li>
+
+
+          </ul>
+        </div>
+        <img id="cssstache" src="img/connectfour.png">
+
+        <a href="#forth_page"><i class="icon-chevron-down next_page_button"></i></a>
+
+      </div>
+
+      <div id="forth_page">
+        <div id="page_text">
+          <h3> CSS Stache </h3>
+          <p>
+            CSS Stache is a library and platform for developers and artists to showcase their creations made purely in HTML and CSS.
+          </p>
+          <p>
+            This project was my second at General Assembly, and my first made as part of a group. This project is brought to you by Woo Jin Park, Michelle Lowe, Livien Yin, Jeffery Kao, and myself. {stachelove}
+          </p>
+        </div>
+        <img id="cssstache" src="img/cssstache_breezi.png">
+
+        <a href="#fifth_page"><i class="icon-chevron-down next_page_button"></i></a>
+
+      </div>
+
+      <div id="fifth_page">
+        <div id="page_text">
+          <h3> ABOUT </h3>
+          <p>
+            My name is Eu-wen Ding. I am an engineer, developer, and maker. I like laughing, solving problems, working with interesting, passionate people, making things, and making the world a better place. Currently in a pitstop at Harvard Business School till 2015.
+          </p>
+          <p>
+            <a href"http://backpackingbangaloretosingapore.wordpress.com/">Link to wordpress blog</a>
+          </p>
+          <ul> Stuff that I like/that inspires me
+            <li>http://hereistoday.com/</li>
+            <li><iframe width="853" height="480" src="http://www.youtube.com/embed/Zl6P1ym5WvE" frameborder="0" allowfullscreen></iframe></li>
+            <li><iframe width="853" height="480" src="http://www.youtube.com/embed/FJGea6RlC9U" frameborder="0" allowfullscreen></iframe></li>
+            <li><iframe src="http://player.vimeo.com/video/55073825?badge=0" width="853" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/55073825">OVERVIEW</a> from <a href="http://vimeo.com/planetarycollective">Planetary Collective</a> on <a href="http://vimeo.com">Vimeo</a>.</p></li>
+            <li><iframe width="853" height="480" src="http://www.youtube.com/embed/5IytQ_P3iiQ" frameborder="0" allowfullscreen></iframe></li>
+          </ul>
+        </div>
+        <!--
+        vimeo: 500/213 = 2.3474
+        youtube: 853/480 = 1.77 -->
+
+
+        <a href="#sixth_page"><i class="icon-chevron-down next_page_button"></i></a>
+
+      </div>
+
+      <div id="sixth_page">
+        CONTACT ME
+        <div id="page_text">
+
+          <p>
+            <img class="icon" src="img/facebook_128.png">
+            <img class="icon" src="img/linkedin_128.png">
+            <img class="icon" src="img/twitter_128.png">
+          </p>
+          <p>
+            <img class="icon" src="img/facebook.png">
+            <img class="icon" src="img/linked-in.png">
+            <img class="icon" src="img/twitter_2.png">
+            <img class="icon" src="img/wordpress.png">
+          </p>
+
+        </div>
+
+
+
+
+      </div>
+
+<!--
+issues/questions:
+1. Animation.
+2. Carosel left click it scrolls down so that the top of the pic aligns with the top of the page. Weird.
+3. Use iframe to cssstache?
+ -->
+
+   </body>
+</html>
